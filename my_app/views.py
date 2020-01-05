@@ -5,7 +5,7 @@ import requests
 from requests.compat import quote_plus
 # Create your views here.
 BASE_CRAGISLIST_URL = 'https://mumbai.craigslist.org/search/bbb?query={}'
-BASE_IMAGE_URL = 'https://images.craigslist.org/{}_600x450.jpg'
+BASE_IMAGE_URL = 'https://images.craigslist.org/{}_300x300.jpg'
 
 def home(request):
     return render(request, 'base.html')
