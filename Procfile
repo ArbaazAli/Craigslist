@@ -1,1 +1,1 @@
-web: gunicon craigslist.wsgi
+web: gunicorn craigslist.wsgi
